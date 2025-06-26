@@ -26,8 +26,8 @@ dotenv.config();
 console.error("[MCP] dotenv.config() 실행됨");
 
 // 하드코딩된 네이버 API 키 (테스트용)
-const NAVER_CLIENT_ID = "iEUC0l7g_UOOgBPNDrMC";
-const NAVER_CLIENT_SECRET = "sGc0s3aH4k";
+const NAVER_CLIENT_ID = "iEUC0l7gHs0ZjDZVFh9O";
+const NAVER_CLIENT_SECRET = "l8FRHZwnAw";
 
 console.error("[MCP] 하드코딩된 네이버 API 키 사용", { NAVER_CLIENT_ID: NAVER_CLIENT_ID.substring(0, 10) + "...", NAVER_CLIENT_SECRET: "***" });
 
